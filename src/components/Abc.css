@@ -1,0 +1,70 @@
+.a{
+    display: flex;
+   margin-left: 5%;
+   text-align: center;
+  
+}
+
+body{
+   
+    background-repeat:no-repeat ;
+    background-size: 100%;
+   
+}
+.b:hover{
+  transform: scale(1.1);
+  backdrop-filter:blur(3px);
+  filter:drop-shadow(1px 1px);
+  transition:0.4s;
+}
+.b{
+  font-size:20px;
+  font-family:'Times New Roman', Times, serif;
+    padding: 40px;
+    border: 5px solid rgb(7, 184, 228);
+    border-radius: 30px;
+    box-shadow: 15px 15px 15px black;
+    height: 50%;
+    width: 50%;
+    color: black;
+    margin-left: 20%;
+    font-size:27px;
+    color:black;
+    text-shadow:2px 2px 4px rgba(241, 230, 230, 0.694);
+   background: transparent;
+}
+.e{
+    text-align: left;
+    color: rgb(13, 9, 0);
+}
+.v{
+  text-align: center;
+    width: 20%;
+    height: 20%;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.d{
+    animation:rotation 6s infinite linear ;
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+}
+.wel{
+  font-size: xx-large;
+  color:rgb(130, 17, 9);
+}
+
+.p{
+  padding-top: 100px;
+}
+#wet{
+  width: 200px;
+}

@@ -1,0 +1,120 @@
+/* src/styles.css */
+.weather-info {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+.head1 {
+    font-size: 24px;
+    margin-top:0px;
+    margin-bottom: 10px;
+    text-shadow:2px 2px 5px;
+    font-size:50px;
+}
+.para1{
+    font-size: 24px;
+    
+}
+
+.lis{
+    font-size: 24px;
+}
+.uli {
+    margin-bottom: 30px;
+    list-style: none;
+    padding: 0;
+}
+#wh{
+    font-size:34px;
+}
+.lis {
+    margin-bottom: 5px;
+}
+.but:hover{
+    transform:scale(1.1);
+    filter:drop-shadow(3px 3px rgba(51, 49, 49, 0.814));
+    transition: 0.3s;
+}
+.but {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.outerfl{
+    display:flex;
+    margin:25px 40px 10px 40px;
+}
+.outerfoo{
+    display:flex;
+    background-color: rgba(58, 53, 53, 0.255);
+}
+.innerfl1{
+    background-color: rgba(250, 235, 215, 0.582);
+    border:2px solid black;
+    border-radius:15px;
+    box-shadow: 3px 3px 5px;
+    padding:30px;
+    width:800px;
+}
+.innerfl2{
+    background-color: rgba(250, 235, 215, 0.582);
+    border:2px solid black;
+    border-radius:15px;
+    box-shadow: 3px 3px 5px;
+    width:800px;
+    padding:30px;
+    margin-left:20px;
+}
+.innerfl3{
+    width:800px;
+    box-shadow: 3px 3px 5px;
+    border-radius:15px;
+    margin-left:20px;
+    border:2px solid black;
+    background-color: rgba(250, 235, 215, 0.582);
+    padding:30px;
+}
+.innerfl1:hover,.innerfl2:hover,.innerfl3:hover{
+    transform:scale(1.1);
+    transition: 0.2s;
+}
+.outerfoo{
+    margin-top: 30px;
+     background: rgb(94,25,25);
+background: linear-gradient(120deg, rgba(0,0,0,1) 0%,rgba(94,25,25,1) 150%);
+    color:white;
+}
+#fc{
+   margin-right: 15px;
+}
+#xi{
+    margin-right: 15px;
+}
+#igt{
+    margin-right: 15px;
+}
+.infp{
+    padding:15px 0px 0 80px;
+    width:500px;
+}
+.intb{
+    padding:30px 0 30px 150px;
+    text-align: left;
+}
+.twd{
+    padding:10px 60px 10px 0px;
+}
+#fpf{
+    margin-top: 1px;
+    background: rgb(94,25,25);
+background: linear-gradient(90deg, rgba(0,0,0,1) 0%,rgba(94,25,25,1) 180%);
+    color:white;
+    padding:10px;
+}
+body{
+    background-image: linear-gradient(60deg, #016597 10%, #76ffafd3 110%);
+}

@@ -1,0 +1,11 @@
+.forecast-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+  }
+  
+  .forecast-item {
+    flex-basis: 33.33%;
+    /* Other styling properties for your items */
+  }
+  

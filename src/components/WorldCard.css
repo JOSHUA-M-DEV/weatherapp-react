@@ -1,0 +1,45 @@
+.cad{
+    display:flex;
+    margin-left: 140px;
+    padding-top: 5px;
+    padding-left:30px;
+    height: 270px;
+    width: 250px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    flex: 0 1 calc(33.333% - 20px); /* Subtract the gap from the width */
+    margin-bottom: 30px; /* Optional: Adds space between rows of cards */
+    min-width: 400px;
+    box-shadow: 10px 10px 10px rgb(17, 18, 16);
+}
+.temp{
+    padding:10px 7px 0 0;
+    font-size:25px;
+}
+.las{
+    padding:28px 0 0 25px;
+}
+.cad:hover{
+    transform: scale(1.1);
+    backdrop-filter:blur(3px);
+    filter:drop-shadow(1px 1px);
+    transition:0.4s;
+}
+.title:hover{
+    font-size:27px;
+    color:black;
+    text-shadow:2px 2px 4px rgba(255, 255, 255, 0.694);
+}
+.wi{
+    font-size:22px;
+}
+.ra{
+    font-size:25px;
+}
+.title{
+    color:rgba(255, 255, 255, 0.694);
+    text-shadow: 2px 2px 4px black;
+}
+

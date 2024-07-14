@@ -1,0 +1,42 @@
+.c{
+    margin-left: 70px;
+    padding-top: 20px;
+    padding-left:40px;
+    height: 250px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 10px;
+    border-width: 3px;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    flex: 0 1 calc(33.333% - 20px); /* Subtract the gap from the width */
+    margin-bottom: 30px; /* Optional: Adds space between rows of cards */
+    min-width: 300px;
+    box-shadow: 10px 10px 10px rgb(17, 18, 16);
+}
+
+.c:hover{
+    transform: scale(1.1);
+    backdrop-filter:blur(3px);
+    filter:drop-shadow(1px 1px);
+    transition:0.4s;
+}
+.card-title:hover{
+    font-size:27px;
+    color:black;
+    text-shadow:2px 2px 4px rgba(255, 255, 255, 0.694);
+}
+.s{
+    font-size:18px;
+}
+.s1{
+    font-size:22px;
+}
+.card-title{
+    color:rgba(255, 255, 255, 0.694);
+    text-shadow: 2px 2px 4px black;
+}
+.pc1{
+    font-size: 20px;
+    padding-left: 50px;
+}

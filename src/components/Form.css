@@ -1,0 +1,46 @@
+.front{
+    border: 1px solid rgb(91, 182, 235);
+height: 220px;
+width: 300px;
+background-color: hsl(180, 73%, 82%);
+box-shadow: 5px 5px 5px;
+border-radius: 5px;
+margin-left: 40%;
+padding-top: 8px;;
+
+
+}
+.front-1{
+    
+    padding: 10px;
+    text-align: center;
+
+
+}
+.front-2{
+    margin-top: 10px;
+    padding: 2px;
+    border-radius: 5px;
+    
+    border: 1px solid pink;
+    background-color: rgb(234, 151, 118);
+}
+.front-3{
+    width: 300px;
+    margin-left: 15px;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px ;
+    border-top:3px solid white;
+    border-left:3px solid white;
+}
+.front-4{
+    width: 300px;
+    margin-left: 75%;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px ;
+    border-top:3px solid white;
+    border-left:3px solid white;
+}
+.fronth1{
+    text-align: left;
+}

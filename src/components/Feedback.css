@@ -1,0 +1,42 @@
+#field123{
+    border: 2px solid rgb(36, 193, 193);
+  border-radius: 5px;
+    background-color: azure;
+   box-shadow: 2px 2px 2px 2px rgb(226, 113, 43);
+  text-align:left;
+ 
+}
+
+legend{
+    border: 2px solid rgb(190, 180, 29);
+    border-radius: 3px;
+    background-color: burlywood;
+}
+#in1{
+    width: 200px;
+   height: 25px;
+   border: 1px solid rgb(4, 4, 4) ;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+   border-radius: 3px;
+   padding: 10px;
+}
+#butt{
+    background-color: rgb(0, 183, 255);
+   height: 30px;
+   border: 1px solid rgb(0, 187, 255);
+   border-radius: 3px;
+  margin-bottom: 10%;
+}
+#star{
+ padding-top: 5px;
+}
+td{
+  padding: 8px;
+}
+#f123:hover{
+  transform: scale(1.1);
+  filter: drop-shadow(2px 2px rgba(51,49,49,0.814));
+  transition: 0.3s;
+}

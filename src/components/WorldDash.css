@@ -1,0 +1,15 @@
+.outer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.inner{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+.hhh{
+    color:aliceblue;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
